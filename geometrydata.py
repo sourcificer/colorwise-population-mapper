@@ -1,6 +1,7 @@
 import pandas
 import json
 import csv
+from PopulationFinder import population_scrapper
 
 def itfile(filepath):
     '''Iterable File[ITFILE]'''
@@ -9,6 +10,13 @@ def itfile(filepath):
     return fp
 
 def geodata():
+        """
+                embeds the longitude and latitude of all the countries
+                with the population of those countries thereby providing
+                information regarding population region which can be used
+                to map the data.
+        """
+        population_scrapper("http://www.worldometers.info/world-population/population-by-country/")
         index=0
         file=open('world.json','w+')
         i=[]
