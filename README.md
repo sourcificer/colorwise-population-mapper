@@ -13,4 +13,4 @@ python map.py
 
 **Screenshot:**
 ![Screenshot](screenshot.png)
-> The color decisive factors can be better confgured suit the requirements of particular usecase.
+> The color decisive factors can be better confgured to suit the requirements of particular usecase.
