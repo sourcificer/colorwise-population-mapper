@@ -3,7 +3,7 @@ certifi==2018.11.29
 chardet==3.0.4
 folium==0.7.0
 idna==2.8
-Jinja2==2.10.3
+Jinja2==2.11.3
 lxml==4.4.1
 MarkupSafe==1.1.0
 numpy==1.16.1
