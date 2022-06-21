@@ -6,7 +6,7 @@ idna==2.8
 Jinja2==2.10.3
 lxml==4.4.1
 MarkupSafe==1.1.0
-numpy==1.16.1
+numpy==1.22.0
 pandas==0.24.1
 python-dateutil==2.8.0
 pytz==2018.9
